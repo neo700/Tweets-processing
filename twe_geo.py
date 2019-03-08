@@ -1,4 +1,5 @@
 import tweepy
+import csv
 access_token = ""
 access_token_secret = ""
 consumer_key = ""
