@@ -9,7 +9,7 @@ access_token = ""
 access_token_secret = ""
 consumer_key = ""
 consumer_secret = ""
-
+#stream listener
 class StdOutListener(StreamListener):
 
     def on_data(self, data):
