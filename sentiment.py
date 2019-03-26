@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import numpy as np
 from textblob import TextBlob
-#above imported files
+#above imported files..
 infile = 'congresstweets.csv'
 def clean_tweet(tweet): 
         ''' 
