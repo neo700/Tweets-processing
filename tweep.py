@@ -9,7 +9,7 @@ access_token = ""
 access_token_secret = ""
 consumer_key = ""
 consumer_secret = ""
-#stream listener
+#stream listener used for real time
 class StdOutListener(StreamListener):
 
     def on_data(self, data):
