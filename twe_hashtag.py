@@ -10,8 +10,8 @@ consumer_secret = ""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True)
-#####United Airlines
-# Open/Create a file to append data
+
+
 csvFile = open('new9.csv', 'a')
 #Use csv Writer
 csvWriter = csv.writer(csvFile)
